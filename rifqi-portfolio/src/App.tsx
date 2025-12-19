@@ -6,7 +6,7 @@ import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Resume from "./sections/Resume";
-import WebGIS from "./sections/Webgis";
+import WebGIS from "./sections/WebGIS";
 import Portfolio from "./sections/Portfolio";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";

@@ -71,6 +71,17 @@ export const resumeData: ResumeData = {
       title: "Professional Experience",
       items: [
         {
+          title: "GIS Developer",
+          subtitle: "PT Agrinas Palma Nusantara (Persero) (Full-time) — On Site • South Jakarta, Jakarta, Indonesia",
+          meta: "Dec 2025 - Present",
+          content: [
+            "Develop GIS Web based applications using Next.js, React.js, Tailwind CSS, Zustand, Maplibre gl Js.",
+            "Develop Backend application using Express Js and Python Flask.",
+            "Manage spatial data using PostgreSQL and PostGIS",
+            "Deploy and maintain applications using Docker, Google Cloud Platform, Cloud Run Service"
+          ],
+        },
+        {
           title: "GIS Software Engineer",
           subtitle: "Braga Technologies (Full-time) — Hybrid • Bandung Regency, West Java",
           meta: "Apr 2024 - Present",

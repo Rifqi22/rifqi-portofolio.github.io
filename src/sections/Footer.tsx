@@ -1,3 +1,7 @@
+import instagramIcon from "/assets/icon/instagram-green.png";
+import facebookIcon from "/assets/icon/facebook-green.png";
+import linkedinIcon from "/assets/icon/linkedin-green.png";
+
 export default function Footer() {
   return (
     <footer className="py-16">
@@ -7,9 +11,7 @@ export default function Footer() {
         <div className="mt-8 flex items-center justify-center gap-6">
           <a
             className="w-12 h-12 bg-center bg-no-repeat bg-[length:80%]"
-            style={{
-              backgroundImage: "url('/assets/icon/instagram-green.png')",
-            }}
+            style={{ backgroundImage: `url(${instagramIcon})` }}
             target="_blank"
             rel="noreferrer"
             href="https://www.instagram.com/iqiiiiiiiiii/"
@@ -17,9 +19,7 @@ export default function Footer() {
           />
           <a
             className="w-12 h-12 bg-center bg-no-repeat bg-[length:80%]"
-            style={{
-              backgroundImage: "url('/assets/icon/facebook-green.png')",
-            }}
+            style={{ backgroundImage: `url(${facebookIcon})` }}
             target="_blank"
             rel="noreferrer"
             href="https://www.facebook.com/rifqi.naufal.58760/"
@@ -27,9 +27,7 @@ export default function Footer() {
           />
           <a
             className="w-12 h-12 bg-center bg-no-repeat bg-[length:80%]"
-            style={{
-              backgroundImage: "url('/assets/icon/linkedin-green.png')",
-            }}
+            style={{ backgroundImage: `url(${linkedinIcon})` }}
             target="_blank"
             rel="noreferrer"
             href="https://www.linkedin.com/in/mochammadrifqinaufalalfayyadh/"
@@ -39,9 +37,6 @@ export default function Footer() {
 
         <div className="mt-10 text-sm text-white/70">
           &copy; Copyright <b>MyResume</b>. All Rights Reserved
-        </div>
-        <div className="mt-2 text-xs text-white/50">
-          Designed by BootstrapMade (migrated to React + Tailwind)
         </div>
       </div>
     </footer>

@@ -289,4 +289,4 @@ export const portfolioItems: PortfolioItem[] = [
   },
 ];
 
-export const typedRoles = ["Mapper", "GIS Analyst", "Web Developer", "Cartographer"];
+export const typedRoles = ["GIS Developer", "GIS Analyst", "Web Developer", "Cartographer"];

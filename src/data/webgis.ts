@@ -31,7 +31,7 @@ import ginaBGNRouting from "/assets/img/webgis/gina-bgn-map-routing.png";
 import simpelKLHKLanding from "/assets/img/webgis/klhk-simpel-landing.png";
 import simpelKLHKMap from "/assets/img/webgis/klhk-simpel-map.png";
 import simpelKLHKPerusahaan from "/assets/img/webgis/klhk-simpel-map-perusahaan.png";
-import simpelKLHKPerusahaanDetail from "/assets/img/webgis/klhk-simpel-detail-perusahaan.png";
+// import simpelKLHKPerusahaanDetail from "/assets/img/webgis/klhk-simpel-detail-perusahaan.png";
 import simpelKLHKDAS from "/assets/img/webgis/klhk-simpel-das.png";
 import simpelKLHKDASDetail from "/assets/img/webgis/klhk-simpel-detail-das.png";
 import simpelKLHKCatalogue from "/assets/img/webgis/klhk-simpel-map-catalogue.png";

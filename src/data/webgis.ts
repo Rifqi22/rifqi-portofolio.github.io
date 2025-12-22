@@ -36,6 +36,11 @@ import simpelKLHKDAS from "/assets/img/webgis/klhk-simpel-das.png";
 import simpelKLHKDASDetail from "/assets/img/webgis/klhk-simpel-detail-das.png";
 import simpelKLHKCatalogue from "/assets/img/webgis/klhk-simpel-map-catalogue.png";
 
+import carbonMap from "/assets/img/webgis/carbon-map.png";
+import carbonEstimasi from "/assets/img/webgis/carbon-estimasi.png";
+import carbonKalkulator from "/assets/img/webgis/carbon-kalkulator.png";
+
+
 
 
 export type WebgisSlide = {
@@ -150,6 +155,17 @@ export const webgisData: WebgisSectionData = {
         { src: simpelKLHKDASDetail, alt: "KLHK Simpel DAS Detail" },
         { src: simpelKLHKCatalogue, alt: "KLHK Simpel Catalogue" },
       ],
+    },
+    {
+      id: "carbon",
+      title: "Carbon",
+      ctaLabel: "Explore Carbon",
+      href: "https://carbon.geodashboard.io/",
+      slides: [
+        { src: carbonEstimasi, alt: "Carbon Estimasi" },
+        { src: carbonMap, alt: "Carbon Map" },
+        { src: carbonKalkulator, alt: "Carbon Kalkulator" },
+      ]
     },
   ],
 };
